@@ -1,0 +1,24 @@
+{
+  "name": "micro-web-server",
+
+  "build": { "dockerfile": "Dockerfile" },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+		"ms-vscode.cpptools",
+		"streetsidesoftware.code-spell-checker",
+		"eamodio.gitlens",
+		"ms-vscode.cmake-tools",
+		"fabiospampinato.vscode-markdown-todo",
+		"timonwong.shellcheck",
+		"vivaxy.vscode-conventional-commits",
+		"bierner.markdown-mermaid",
+		"bpruitt-goddard.mermaid-markdown-syntax-highlighting",
+		"pomdtr.excalidraw-editor"
+	]
+    }
+  },
+
+  "forwardPorts": [8080, 8443]
+}
