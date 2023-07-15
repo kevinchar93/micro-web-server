@@ -9,3 +9,4 @@ RUN apt install -y cppcheck
 RUN apt install -y clang lldb llvm
 RUN apt install -y valgrind gdb
 RUN apt install -y git
+RUN apt install -y vim
